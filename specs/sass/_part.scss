@@ -1,0 +1,7 @@
+@mixin ts ($string) {
+	-webkit-text-shadow: $string;
+	-moz-text-shadow: $string;
+	-ms-text-shadow: $string;
+	-o-text-shadow: $string;
+	text-shadow: $string;
+}
